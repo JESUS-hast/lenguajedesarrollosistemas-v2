@@ -1,1 +1,80 @@
-prueba...
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PowerFit</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1') no-repeat center center/cover;
+        }
+
+        .overlay {
+            background: rgba(0,0,0,0.7);
+            padding: 40px;
+            border-radius: 12px;
+            width: 320px;
+        }
+
+        h1 {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 100%;
+            margin-top: 15px;
+            padding: 12px;
+            background: #00ff88;
+            border: none;
+            color: #000;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #00cc6a;
+        }
+
+        .arm {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <h1>POWERFIT <span class="arm">💪</span></h1>
+    <p>Regístrate y comienza tu cambio</p>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="password" placeholder="Contraseña" required>
+        <button class="btn" type="submit">Registrarse</button>
+    </form>
+</div>
+
+</body>
+</html>
